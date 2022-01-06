@@ -83,7 +83,7 @@ public class Park_Lots {
             } else /* Anything else (one condition: if the size of parking lot has reach the limit */ {
 
                 // Print out a message stating that the parking lot is full.
-                System.out.println("ERROR: unable to park (" + car.getBrand() + ") from " + getParkLocation() + " because it is full!");
+                System.out.println("ERROR: unable to park (" + car.getBrand() + ") into " + getParkLocation() + " because parking lot is full!");
             }
         }
 
